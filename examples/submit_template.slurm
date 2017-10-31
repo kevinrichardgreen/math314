@@ -4,11 +4,11 @@
 
 EXECUTABLE=exe-name
 
-#SBATCH --nodes=3
-#SBATCH --tasks-per-node=8
+#SBATCH --nodes=1
+#SBATCH --tasks-per-node=1
 #SBATCH --mem=2G
 #SBATCH --time=00:05:00
-#SBATCH --job-name=diffuse_example
+#SBATCH --job-name=petsc_slurm_template
 
 # ============================================================================
 
