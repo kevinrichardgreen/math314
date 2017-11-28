@@ -1,0 +1,9 @@
+
+# set epsilon variable
+epsilon = 0.1
+# set exact solution
+f(x) = (exp(-x) - exp(-x/epsilon))/(exp(-1)-exp(-1/epsilon))
+set xr [0:1]
+set samples 1000
+
+plot f(x)
